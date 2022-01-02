@@ -1,0 +1,148 @@
+:root{
+    --color:#FFFFFF;
+    --zero-px:0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: var(--zero-px);
+     background-color: var(--color);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+nav{
+    width: 100vw;
+    margin: var(--zero-px);
+    padding: 1.0rem;
+    display: flex;
+     gap: 7vw;
+}
+#logo {
+    width: 30px;
+    margin-left: 1em;
+  }
+.heading{
+     width: 20%;
+}
+p{
+    margin: 8px;
+    display: inline;
+    font-size: 1.5rem;
+}
+.searchbar{
+    background-color: var(--color);
+    width: 30%;
+}
+.searchbar > input {
+    width: 100%;
+    height: 5vh;
+    border-radius: 30px;
+    border: 1px solid rgb(221, 216, 216);
+    text-align: center;
+}
+.navbuttons{
+    width: 30%;
+    display: flex;
+    gap: 4vw;
+}
+.navbuttons button{
+    border: 1px solid #ABABAB;
+    text-align: center;
+}
+.container{
+      
+    width: 100%;
+    margin: var(--zero-px);
+     display: flex;
+     gap: 3vw;
+}
+
+.sidenav{
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 3vh;
+}
+.sidenav button{
+    display: block;
+}
+.new_btn button{
+    padding: 1rem;
+    margin: 10px 0px 0px 10px ;
+    width: 60%;
+    border-radius: 30px;
+    border: 1px solid #ababab;
+    font-size: 1rem;
+}
+.menu_btn button{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ababab;
+    font-size: 0.9rem;
+}
+.menu_btn button:hover{
+    color: blue;
+    background-color: rgb(182, 182, 243);
+}
+.storage > h4{
+    margin-left: 4rem;
+}
+.storage progress{
+    margin: 0.5rem;
+}
+.storage button{
+    border: 1px solid #ababab;
+    padding: 0.5rem;
+    margin-left: 3vw;
+}
+.content_div{
+    flex: 5;   
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.switch_btn{
+   height: 9vh;
+   display: flex;
+   justify-content: space-between;
+}
+ .switch_btn button{
+    margin-right: 4rem;
+    border-radius: 20px;
+    border: 0px ;
+    text-align: center;
+ }
+
+ .switch_btn h2{
+     margin-top: 1rem;
+ }
+ button{
+     background-color: var(--color);
+ }
+
+.card_content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3vh;
+    flex-wrap: wrap;
+}
+.card{
+    width: 220px;
+    height: 190px;
+    background-color: rgb(154, 154, 158);
+}
+ .list_content {
+     display: none;
+ } 
+td,th {
+    text-align: center;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    width: 17em;
+    height: 3em;
+    font-weight: 100;
+  }
